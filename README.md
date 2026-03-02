@@ -1,1 +1,6 @@
 # afosim.github.io
+d username.github.io
+echo "My Page" > index.html
+git add index.html
+git commit -a -m "First pages commit"
+git push origin master
