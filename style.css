@@ -1,0 +1,45 @@
+*{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes myAnimation {
+    from {background-color: darkblue;}
+    to {background-color: purple;}
+    
+}
+header{
+    background-color: darkblue;
+    animation-name: myAnimation;
+    animation-duration: 10s;
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+}
+h2,h4{
+    text-align: center
+    
+}
+main{
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 100px;
+    height: 350px;
+}
+footer{
+    border-radius: 50px;
+    background-color: magenta;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding: 100px;
+}
+#slovakia2{
+    height: 300px;
+    border-radius: 25px;
+}
