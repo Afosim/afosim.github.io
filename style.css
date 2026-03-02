@@ -12,6 +12,7 @@ header{
     animation-name: myAnimation;
     animation-duration: 10s;
     border-radius: 50px;
+    height: 1300px;
 }
 h1{
     text-align: center;
@@ -26,9 +27,8 @@ main{
     border-radius: 50px;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 450px;
     padding: 100px;
-    height: 350px;
 }
 footer{
     border-radius: 50px;
@@ -36,10 +36,29 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 780px;
     padding: 100px;
 }
 #slovakia2{
     height: 300px;
     border-radius: 25px;
 }
+
+a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+#blue{
+    background-color: cyan;
+    border-radius: 20px;
+}
+#pink{
+    background-color: rgb(195, 0, 255);
+    border-radius: 20px;;
+}
+#ziel{
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
